@@ -3,5 +3,5 @@ description: Ye ol Hello World
 
 steps:
 - name: say hello
-	image: alpine:latest
-	input: echo "Hello World"
+  image: alpine:latest
+  input: echo "Hello World"
