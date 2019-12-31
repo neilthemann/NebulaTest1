@@ -13,7 +13,6 @@ steps:
         name: cert
     deploymentName: nebula-test
     resourceGroup: TestRG
-    location: centralus 
     templateFile: azuredeploy.json
     git:
       name: NebulaTest1
