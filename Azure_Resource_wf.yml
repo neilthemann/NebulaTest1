@@ -7,7 +7,7 @@ steps:
   spec:
     azure:
       tenantID: ed2639c3-405d-4d2b-822b-cecdc4d0408d
-      username: http://PuppetNebula
+      username: 8e2ef841-6023-485c-b1cc-69c1362648c7
       cert:
         $type: Secret
         name: cert
