@@ -1,0 +1,9 @@
+username - needs to be the "Application (client) ID" of the registered application
+    Hashicorp has a good writeup on creating the service priciple (ignore the Terraform specific info):
+    https://learn.hashicorp.com/terraform/azurerm/authentication-service-principal-client-certificate
+
+cert - this needs to include both the private key and public key
+    Here is a discussion for reference:
+    https://github.com/Azure/azure-cli/issues/9970#issuecomment-513478952
+
+templateFile - the ARM template (json file)
