@@ -1,0 +1,16 @@
+version: v1
+description: Azure Resource Test
+
+steps:
+- name: azureresourcemanager-deployer
+  image: projectnebula/azureresourcemanager-deployer:latest
+  spec:
+    azure:
+      tenantID: 12345678-1234-1234-1234-123456789012
+      username: http://PuppetNebula
+      cert:
+        $type: Secret
+        name: cert
+    deploymentName: nebula-test
+    location: centralus 
+    templateFile: Azure_Resource_wf.yml
