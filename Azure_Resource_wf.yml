@@ -12,6 +12,7 @@ steps:
         $type: Secret
         name: cert
     deploymentName: nebula-test
+    resourceGroup: TestRG
     location: centralus 
     templateFile: azuredeploy.json
     git:
