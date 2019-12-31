@@ -6,7 +6,7 @@ steps:
   image: projectnebula/azureresourcemanager-deployer:latest
   spec:
     azure:
-      tenantID: 12345678-1234-1234-1234-123456789012
+      tenantID: ed2639c3-405d-4d2b-822b-cecdc4d0408d
       username: http://PuppetNebula
       cert:
         $type: Secret
