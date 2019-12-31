@@ -13,7 +13,7 @@ steps:
         name: cert
     deploymentName: nebula-test
     location: centralus 
-    templateFile: Azure_Resource_wf.yml
+    templateFile: azuredeploy.json
     git:
       name: NebulaTest1
       branch: master
