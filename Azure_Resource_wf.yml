@@ -14,3 +14,7 @@ steps:
     deploymentName: nebula-test
     location: centralus 
     templateFile: Azure_Resource_wf.yml
+    git:
+      name: NebulaTest1
+      branch: master
+      repository: https://github.com/neilthemann/NebulaTest1/
