@@ -5,7 +5,7 @@
       {
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2019-04-01",
-        "name": "storeNeb20191230",
+        "name": "storeneb20191230",
         "location": "centralus",
         "sku": {
           "name": "Standard_LRS"
